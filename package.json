@@ -1,0 +1,24 @@
+{
+  "name": "uqamUpdateChecker",
+  "version": "1.0.0",
+  "description": "checker for uqam website",
+  "main": "app.js",
+  "author": "Sergo",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest --verbose",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "chai": "^4.3.7",
+    "dotenv": "^16.0.3",
+    "request": "^2.88.2",
+    "twilio": "^3.84.1"
+  },
+  "devDependencies": {
+    "jest": "^29.4.1",
+    "nodemon": "^2.0.20"
+  }
+}

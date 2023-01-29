@@ -21,7 +21,6 @@
 //       ".example-class"
 //     );
 
-//     console.log("twilio", twilio);
 //   });
 
 //   it("should check website for change", async () => {

@@ -11,8 +11,6 @@ class Twilio {
   }
 
   sendSMS(to, body) {
-    console.log("to", to);
-    console.log("body", body);
     return new Promise((resolve, reject) => {
       this.client.messages
         .create({
@@ -21,7 +19,6 @@ class Twilio {
           to: to,
         })
         .then((message) => {
-          console.log("message =", message);
           if (message.errorCode === null) {
             resolve(message.sid);
           } else {
